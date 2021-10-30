@@ -19,13 +19,7 @@ import requests,sys,bs4,os,random,time,json
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 from datetime import datetime
 
-### Perumpamaan Module & Syntax
-_req_get_   = requests.get
-_req_post_ = requests.post
-_js_lo_    = json.loads
-_dapunta_cici_    = print
-_cici_dapunta_    = input
-_dapunta_dapunta_ = open
+#
 _cici_cici_       = exit
 
 ### Waktu & Tanggal
@@ -33,7 +27,8 @@ current = datetime.now()
 ta = current.year
 bu = current.month
 ha = current.day
-bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
+
+_dapunta_dapunta_ = openbulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
 try:
     if bu < 0 or bu > 12:
