@@ -63,7 +63,7 @@ def menu_log():
     clear()
     banner()
     var_menu()
-    pmu = input('%s╠══[%s•%s] %sChoose : '%(O,P,O,P))
+    pmu = input('s╠══[s*s] %sChoose : '(O,P,O,P))
     print('%s║'%(O))
     if pmu in ['']:
         jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
